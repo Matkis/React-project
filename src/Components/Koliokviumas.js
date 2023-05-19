@@ -13,7 +13,7 @@ export default function VideoPage() {
 
   // Search and display GIFs using Giphy API and submit to DbConnect.php
   const searchGifs = async () => {
-    const apiKey = "hobpsjJ3wtDM38hGOarltltU2X76nqwe";
+    const apiKey = "enter API key here"
 
     const apiUrl = `https://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=${apiKey}&limit=10`;
 
